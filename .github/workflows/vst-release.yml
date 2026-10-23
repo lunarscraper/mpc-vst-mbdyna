@@ -1,0 +1,31 @@
+name: VST release (draft)
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Version, e.g. 0.1.0
+        required: true
+        default: 0.1.0
+      dry_run:
+        description: Build only (zip + skin previews as run artifacts), no draft release
+        type: boolean
+        default: true
+
+jobs:
+  mbdyna:
+    uses: sd88me/mpc-vst-plugins/.github/workflows/vst-release.yml@10ffa29494e1f9ebb30907abadf7f66c73734d69
+    permissions:
+      contents: write
+    with:
+      tag: mbdyna-vst-v${{ inputs.version }}
+      version: ${{ inputs.version }}
+      tools_ref: 10ffa29494e1f9ebb30907abadf7f66c73734d69
+      vst_dir: vst
+      build: bash vst/build.sh
+      host_test: bash vst/test.sh
+      plugin_id: mbdyna
+      license: LGPL-3.0-or-later
+      user_data: slots
+      about: MB Dyna (insert effect) - four-band master compressor on the unchanged DSP of the LSP Multiband Dynamics Processor (threshold, ratio, attack, release, makeup per band, three splits, mix, 32 slots). Unofficial port.
+      dry_run: ${{ inputs.dry_run }}
