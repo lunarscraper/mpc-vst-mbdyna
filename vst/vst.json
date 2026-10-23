@@ -1,0 +1,13 @@
+{
+  "name": "MB Dyna",
+  "vendor": "lunarscraper",
+  "uid": "MBDy",
+  "version": 1000,
+  "so": "mbdyna.so",
+  "params": "params.json",
+  "presets": "presets.json",
+  "layout": "layout.conf",
+  "title_font": "fonts/TitilliumWeb-SemiBold.ttf",
+  "effect": true,
+  "_comment": "Insert effect: LSP Multiband Dynamics Processor (stereo), four bands. vst.json/params.json/presets.json/layout.conf only feed mpc-vst-plugins' tools/gen_vst.py for params.h + the skin. The plugin is mbdyna_vst.cpp + fxshell.h (float audio), built by this port's own build.sh. params.json: append only (params.lock)."
+}

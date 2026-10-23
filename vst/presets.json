@@ -1,0 +1,75 @@
+{
+  "_comment": "Factory contents of slots 1-10 (MPC's PRESET menu lists all 32 slots). Values in the parameters' own units. Starting points for a live techno / Goa master, finished by ear: THRESHOLD depends on how hot the mix arrives. Bands: 1 = below SPLIT 1 (kick, sub), 2 = SPLIT 1..2 (bass body, low mids), 3 = SPLIT 2..3 (mids, leads), 4 = above SPLIT 3 (hats, air).",
+  "presets": [
+    {"name": "INIT", "values": {
+      "mode": "MODERN", "input": 0, "output": 0, "mix": 100, "scmode": "RMS", "react": 10, "boost": "NONE",
+      "split1": 120, "split2": 1000, "split3": 5000,
+      "on1": "ON", "solo1": "OFF", "thresh1": -18, "ratio1": 1, "attack1": 20, "release1": 150, "makeup1": 0,
+      "on2": "ON", "solo2": "OFF", "thresh2": -18, "ratio2": 1, "attack2": 20, "release2": 150, "makeup2": 0,
+      "on3": "ON", "solo3": "OFF", "thresh3": -18, "ratio3": 1, "attack3": 20, "release3": 150, "makeup3": 0,
+      "on4": "ON", "solo4": "OFF", "thresh4": -18, "ratio4": 1, "attack4": 20, "release4": 150, "makeup4": 0}},
+    {"name": "GLUE", "values": {
+      "mode": "MODERN", "input": 0, "output": 0, "mix": 100, "scmode": "RMS", "react": 10, "boost": "NONE",
+      "split1": 120, "split2": 1000, "split3": 5000,
+      "on1": "ON", "solo1": "OFF", "thresh1": -20, "ratio1": 1.5, "attack1": 30, "release1": 200, "makeup1": 1,
+      "on2": "ON", "solo2": "OFF", "thresh2": -18, "ratio2": 1.5, "attack2": 30, "release2": 200, "makeup2": 1,
+      "on3": "ON", "solo3": "OFF", "thresh3": -18, "ratio3": 1.5, "attack3": 25, "release3": 180, "makeup3": 1,
+      "on4": "ON", "solo4": "OFF", "thresh4": -20, "ratio4": 1.5, "attack4": 15, "release4": 150, "makeup4": 1}},
+    {"name": "TECHNO MASTER", "values": {
+      "mode": "MODERN", "input": 0, "output": 0, "mix": 100, "scmode": "RMS", "react": 10, "boost": "NONE",
+      "split1": 120, "split2": 1200, "split3": 6000,
+      "on1": "ON", "solo1": "OFF", "thresh1": -16, "ratio1": 3, "attack1": 10, "release1": 120, "makeup1": 2,
+      "on2": "ON", "solo2": "OFF", "thresh2": -18, "ratio2": 2, "attack2": 25, "release2": 150, "makeup2": 1.5,
+      "on3": "ON", "solo3": "OFF", "thresh3": -20, "ratio3": 2, "attack3": 15, "release3": 120, "makeup3": 1.5,
+      "on4": "ON", "solo4": "OFF", "thresh4": -22, "ratio4": 2.5, "attack4": 5, "release4": 80, "makeup4": 1}},
+    {"name": "GOA MASTER", "values": {
+      "mode": "MODERN", "input": 0, "output": 0, "mix": 100, "scmode": "RMS", "react": 8, "boost": "NONE",
+      "split1": 150, "split2": 1000, "split3": 5000,
+      "on1": "ON", "solo1": "OFF", "thresh1": -15, "ratio1": 3, "attack1": 15, "release1": 100, "makeup1": 2,
+      "on2": "ON", "solo2": "OFF", "thresh2": -18, "ratio2": 2, "attack2": 20, "release2": 140, "makeup2": 1.5,
+      "on3": "ON", "solo3": "OFF", "thresh3": -20, "ratio3": 2, "attack3": 10, "release3": 120, "makeup3": 1.5,
+      "on4": "ON", "solo4": "OFF", "thresh4": -24, "ratio4": 3, "attack4": 3, "release4": 60, "makeup4": 0.5}},
+    {"name": "PUNCH", "values": {
+      "mode": "MODERN", "input": 0, "output": 0, "mix": 100, "scmode": "PEAK", "react": 5, "boost": "NONE",
+      "split1": 120, "split2": 1000, "split3": 5000,
+      "on1": "ON", "solo1": "OFF", "thresh1": -14, "ratio1": 2.5, "attack1": 40, "release1": 100, "makeup1": 2,
+      "on2": "ON", "solo2": "OFF", "thresh2": -16, "ratio2": 2, "attack2": 35, "release2": 120, "makeup2": 1.5,
+      "on3": "ON", "solo3": "OFF", "thresh3": -18, "ratio3": 1.5, "attack3": 30, "release3": 120, "makeup3": 1,
+      "on4": "ON", "solo4": "OFF", "thresh4": -20, "ratio4": 1.5, "attack4": 20, "release4": 100, "makeup4": 0.5}},
+    {"name": "BASS TIGHT", "values": {
+      "mode": "MODERN", "input": 0, "output": 0, "mix": 100, "scmode": "RMS", "react": 10, "boost": "NONE",
+      "split1": 140, "split2": 1000, "split3": 5000,
+      "on1": "ON", "solo1": "OFF", "thresh1": -20, "ratio1": 4, "attack1": 5, "release1": 80, "makeup1": 2,
+      "on2": "ON", "solo2": "OFF", "thresh2": -18, "ratio2": 1, "attack2": 20, "release2": 150, "makeup2": 0,
+      "on3": "ON", "solo3": "OFF", "thresh3": -18, "ratio3": 1, "attack3": 20, "release3": 150, "makeup3": 0,
+      "on4": "ON", "solo4": "OFF", "thresh4": -18, "ratio4": 1, "attack4": 20, "release4": 150, "makeup4": 0}},
+    {"name": "DE-MUD", "values": {
+      "mode": "MODERN", "input": 0, "output": 0, "mix": 100, "scmode": "RMS", "react": 10, "boost": "NONE",
+      "split1": 150, "split2": 500, "split3": 5000,
+      "on1": "ON", "solo1": "OFF", "thresh1": -18, "ratio1": 1, "attack1": 20, "release1": 150, "makeup1": 0,
+      "on2": "ON", "solo2": "OFF", "thresh2": -24, "ratio2": 3, "attack2": 10, "release2": 120, "makeup2": 0,
+      "on3": "ON", "solo3": "OFF", "thresh3": -18, "ratio3": 1, "attack3": 20, "release3": 150, "makeup3": 0,
+      "on4": "ON", "solo4": "OFF", "thresh4": -18, "ratio4": 1, "attack4": 20, "release4": 150, "makeup4": 0}},
+    {"name": "TAME HIGHS", "values": {
+      "mode": "MODERN", "input": 0, "output": 0, "mix": 100, "scmode": "PEAK", "react": 5, "boost": "NONE",
+      "split1": 120, "split2": 1000, "split3": 6000,
+      "on1": "ON", "solo1": "OFF", "thresh1": -18, "ratio1": 1, "attack1": 20, "release1": 150, "makeup1": 0,
+      "on2": "ON", "solo2": "OFF", "thresh2": -18, "ratio2": 1, "attack2": 20, "release2": 150, "makeup2": 0,
+      "on3": "ON", "solo3": "OFF", "thresh3": -18, "ratio3": 1, "attack3": 20, "release3": 150, "makeup3": 0,
+      "on4": "ON", "solo4": "OFF", "thresh4": -26, "ratio4": 4, "attack4": 1, "release4": 50, "makeup4": 0}},
+    {"name": "LOUD", "values": {
+      "mode": "MODERN", "input": 0, "output": -1, "mix": 100, "scmode": "RMS", "react": 10, "boost": "NONE",
+      "split1": 120, "split2": 1000, "split3": 5000,
+      "on1": "ON", "solo1": "OFF", "thresh1": -24, "ratio1": 4, "attack1": 15, "release1": 120, "makeup1": 5,
+      "on2": "ON", "solo2": "OFF", "thresh2": -24, "ratio2": 4, "attack2": 15, "release2": 120, "makeup2": 5,
+      "on3": "ON", "solo3": "OFF", "thresh3": -24, "ratio3": 4, "attack3": 10, "release3": 100, "makeup3": 5,
+      "on4": "ON", "solo4": "OFF", "thresh4": -26, "ratio4": 4, "attack4": 5, "release4": 80, "makeup4": 4}},
+    {"name": "PARALLEL", "values": {
+      "mode": "MODERN", "input": 0, "output": 0, "mix": 40, "scmode": "RMS", "react": 10, "boost": "NONE",
+      "split1": 120, "split2": 1000, "split3": 5000,
+      "on1": "ON", "solo1": "OFF", "thresh1": -30, "ratio1": 4, "attack1": 10, "release1": 150, "makeup1": 6,
+      "on2": "ON", "solo2": "OFF", "thresh2": -30, "ratio2": 4, "attack2": 10, "release2": 150, "makeup2": 6,
+      "on3": "ON", "solo3": "OFF", "thresh3": -30, "ratio3": 4, "attack3": 8, "release3": 120, "makeup3": 6,
+      "on4": "ON", "solo4": "OFF", "thresh4": -30, "ratio4": 4, "attack4": 5, "release4": 100, "makeup4": 5}}
+  ]
+}
